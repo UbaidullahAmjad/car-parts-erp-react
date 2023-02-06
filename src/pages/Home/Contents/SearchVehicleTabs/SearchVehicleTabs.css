@@ -1,0 +1,44 @@
+.search_vehicle_tabs-wrapper .svt_tab_content {
+    padding: 10px 5px;
+}
+
+.search_vehicle_tabs-wrapper .nav-tabs {
+    --bs-nav-tabs-border-width: 2px;
+    /* --bs-nav-tabs-link-active-border-color: #dee2e6 #dee2e6 #ffffff; */
+    --bs-nav-tabs-link-active-border-color: #dee2e6 #dee2e6 transparent;
+    --bs-nav-tabs-border-color: transparent;
+    border: none;
+}
+.search_vehicle_tabs-wrapper .nav-tabs .nav-item {
+    width: 50%;
+    border: none;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: none;
+}
+
+.search_vehicle_tabs-wrapper a.nav-link {
+    border-radius: 0;
+    background-color: rgb(237, 235, 235);
+    cursor: pointer;
+    position: relative;
+    border: none;
+    outline: 3px solid rgb(255, 255, 255);
+}
+.search_vehicle_tabs-wrapper a.nav-link.active {
+    background-color: rgb(241, 241, 252);
+    outline: none;
+}
+
+.search_vehicle_tabs-wrapper .nav-link span {
+    font-size: 15px;
+    display: inline-block;
+    font-weight: 700;
+    color: rgb(76, 76, 76);
+}
+.search_vehicle_tabs-wrapper a.nav-link.active > span {
+    color: var(--primary-color);
+}
+.search_vehicle_tabs-wrapper .nav-link span svg {
+    font-size: 20px;
+}

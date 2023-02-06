@@ -1,0 +1,81 @@
+
+.model_sidebar_box-wrapper .accordion-header .accordion-button {
+    padding: 8px 5px;
+    background-color: #f3f0f0;
+    color: var(--primary-color);
+    font-size: 15px;
+    font-weight: 600;
+    box-shadow: none;
+    outline: none;
+}
+.model_sidebar_box-wrapper .accordion-header .accordion-button::after {
+    height: 1rem;
+    width: 1rem;
+    background-size: 1rem;
+}
+.model_sidebar_box-wrapper .accordion-body {
+    padding: 12px 5px !important;
+}
+
+.select_vehicle_sidebar_image_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.select_vehicle_sidebar_image_box img {
+    width: 85%;
+}
+
+.select_vehicle_sidebar_title_box {
+    width: 100%;
+}
+.select_vehicle_sidebar_title_box .select_vehicle_sidebar_title {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--primary-color);
+    margin-bottom: 0;
+    line-height: 1;
+    border: 1px solid rgb(203, 201, 201);
+    text-transform: uppercase;
+    padding: 5px 4px;
+}
+
+.select_vehicle_sidebar_cange_btns {
+    text-align: center;
+    margin-top: 10px;
+}
+.select_vehicle_sidebar_cange_btns button {
+    min-width: 65px;
+    margin-bottom: 4px;
+    font-size: 14px;
+    padding: 3px 8px;
+}
+.select_vehicle_sidebar_cange_btns .btn_change {
+    margin-right: 3px;
+}
+.select_vehicle_sidebar_cange_btns .btn_delete {
+    margin-left: 3px;
+}
+
+.vehicle_details_sidebar_body {
+}
+.vehicle_details_box {
+    display: flex;
+    font-size: 13px;
+    border-bottom: 1px solid rgb(175, 173, 173);
+}
+.vehicle_details_box:nth-child(even) {
+    background-color: rgb(235, 233, 233);
+}
+.vehicle_details_box p {
+    margin-bottom: 0;
+    width: 50%;
+    line-height: 1.2;
+    padding: 5px 4px;
+}
+.vehicle_details_box p.detail_type {
+    margin-right: 4px;
+    font-weight: 600;
+}
+

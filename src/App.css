@@ -1,0 +1,28 @@
+
+.error {
+    font-size: 12px;
+    color: #dc3545;
+}
+
+.btn {
+    position: relative;
+}
+.btn_overlay {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: hsla(0, 100%, 100%, 0.35);
+    color: #3f3e3eff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: text;
+}
+.btn_overlay svg, .btn_overlay div, .btn_overlay span {
+    width: 20px;
+    height: 20px;
+}
+

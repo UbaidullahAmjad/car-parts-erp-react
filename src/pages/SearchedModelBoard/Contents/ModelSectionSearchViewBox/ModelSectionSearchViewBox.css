@@ -1,0 +1,110 @@
+.model_section_search_view_box-wrapper {
+  height: 100%;
+  border: 1px solid rgb(202, 201, 201);
+  border-radius: 3px;
+  padding: 5px 4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  transition: 0.15s;
+  overflow: hidden;
+  padding-bottom: 4px;
+}
+.model_section_search_view_box-wrapper_inner {
+  min-height: 240px;
+  max-height: 320px;
+}
+
+.model_section_search_view_box-wrapper:hover {
+  /* cursor: pointer; */
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.model_section_search_view_box-title_box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.model_section_search_view_box-title_box .mdb_title-wrap {
+  display: flex;
+  align-items: center;
+  margin-right: 4px;
+}
+.model_section_search_view_box-title_box .mdb_icon_box {
+  margin-right: 4px;
+  color: var(--primary-color);
+}
+.model_section_search_view_box-title_box .mdb_icon_box svg {
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+.model_section_search_view_box-title_box .mdb_title {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--primary-color);
+  /* ------ */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.model_section_search_view_box-title_box .mdb_favourite-wrap {
+  color: var(--primary-color);
+}
+.model_section_search_view_box-title_box .mdb_favourite-wrap svg {
+  font-size: 20px;
+}
+
+.model_dasboard-image_box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+.model_dasboard-image_box img {
+  width: 85%;
+}
+
+.model_dasboard-content_box {
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-bottom: 5px;
+}
+.model_dasboard-content_box ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.model_dasboard-content_box ul li {
+  margin-bottom: 0px;
+  line-height: 1.2;
+  display: flex;
+}
+.model_dasboard-content_box ul li .list_indicator {
+  margin-right: 2px;
+  display: inline-block;
+  color: var(--primary-color);
+}
+.model_dasboard-content_box ul li .list_indicator svg {
+  font-size: 22px;
+  color: var(--primary-color);
+  margin-bottom: 2px;
+}
+.model_dasboard-content_box .model_dasboard_text {
+  margin-bottom: 0;
+  line-break: 1.2;
+  font-size: 15px;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.model_dasboard-content_box .anchor.model_dasboard_text:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

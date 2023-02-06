@@ -1,0 +1,50 @@
+.search-carmodel-tabs .search_cm_card {
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+.search-carmodel-tabs .cm_tabs_box {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.search-carmodel-tabs .cm_tab {
+  color: rgb(42, 42, 42);
+  /* background-color: rgb(90, 96, 254); */
+  background-color: rgb(246, 243, 243);
+  margin: 4px 4px;
+  min-height: 45px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  transition: 0.15s;
+}
+.search-carmodel-tabs .cm_tab:hover {
+  color: #fff;
+  background-color: rgb(37, 40, 107);
+}
+.search-carmodel-tabs .cm_tab.Mui-selected {
+  color: #fff;
+  /* background-color: rgb(90, 96, 254); */
+  background-color: rgb(37, 40, 107);
+}
+.search-carmodel-tabs .MuiTabScrollButton-root svg.MuiSvgIcon-root {
+  color: #fff !important;
+}
+
+@media (max-width: 600px) {
+  .search_cm_tabs .MuiTabs-flexContainer {
+    flex-wrap: wrap !important;
+  }
+  .search-carmodel-tabs .cm_tab {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /*  */
+    margin: 4px 4px;
+    min-height: 40px;
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}

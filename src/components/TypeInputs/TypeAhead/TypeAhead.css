@@ -1,0 +1,61 @@
+/* -------------------------------------- */
+
+.typehead_form_control {
+  position: relative !important;
+}
+.typehead_form_control .form-control {
+  padding-right: 34px !important;
+}
+.typehead_form_control_toggle_button {
+  content: "";
+  position: absolute;
+  background: transparent;
+  border: 0;
+  bottom: 0;
+  padding: 0 12px;
+  right: 0;
+  top: 0;
+  border-left: 1px solid #ced4da;
+  background-color: #fff;
+  margin: 1px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.typehead_form_control.disabled .typehead_form_control_toggle_button {
+  background-color: transparent;
+}
+.typehead_form_control_toggle_button span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1b1b1b !important;
+}
+
+.typehead_form_control .rbt-aux {
+  margin-right: 20px;
+  background-color: #fff;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  width: 22px !important;
+}
+
+.typehead_form_control .rbt-aux .rbt-close span.rbt-close-content {
+  display: none !important;
+}
+.typehead_form_control .btn-close {
+  height: 0rem !important;
+}
+
+.typehead_form_control_toggle_button svg {
+  font-size: 24px;
+  font-weight: 600;
+  color: #373737 !important;
+  margin-right: -6px;
+  margin-bottom: 0px;
+}
+
+.typehead_form_control .rbt-menu.dropdown-menu.show {
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+/* -------------------------------------- */

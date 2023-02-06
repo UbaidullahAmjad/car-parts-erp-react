@@ -1,0 +1,96 @@
+.search-carmodel-tabs .search_cm_card {
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
+  /* box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px; */
+}
+.search-carmodel-tabs .cm_tabs_box {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.search-carmodel-tabs .tabpanel .MuiBox-root {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.search-carmodel-tabs .cm_tab {
+  /* color: rgb(42, 42, 42); */
+  color: rgb(90, 96, 254);
+  /* background-color: rgb(90, 96, 254); */
+  background-color: transparent;
+  margin: 4px 4px;
+  min-height: auto;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  transition: 0.15s;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px 4px;
+  padding-right: 8px;
+  border: 1px solid rgb(210, 208, 208);
+}
+.search-carmodel-tabs .cm_tab:hover {
+  color: #fff;
+  /* background-color: rgb(129, 133, 243); */
+  background-color: var(--primary-color-hover);
+}
+.search-carmodel-tabs .cm_tab.Mui-selected {
+  color: #fff;
+  /* background-color: rgb(90, 96, 254); */
+  /* background-color: rgb(90, 96, 254); */
+  background-color: var(--primary-color);
+}
+.search-carmodel-tabs .MuiTabScrollButton-root {
+  width: 20px;
+}
+.search-carmodel-tabs .MuiTabScrollButton-root svg.MuiSvgIcon-root {
+  color: var(--primary-color) !important;
+}
+
+.smart_search_section {
+  padding: 12px 8px;
+  background-color: var(--bg-whitish-blue);
+}
+.smart_search_section button,
+.smart_search_section input {
+  box-shadow: none;
+  outline: none;
+}
+.smart_search_section button:focus,
+.smart_search_section input:focus {
+  box-shadow: none;
+  outline: none;
+}
+.smart_search_section button, .smart_search_section button:active {
+  font-size: 13px;
+  padding-right: 6px;
+  padding-left: 6px;
+  background-color: var(--primary-color) !important;
+}
+.smart_search_section button:hover {
+  background-color: var(--primary-color-hover-dark) !important;
+}
+.smart_search_section input {
+  font-size: 14px;
+}
+.smart_search_section button svg {
+  font-size: 20px;
+  margin-right: 3px;
+}
+
+@media (max-width: 600px) {
+  .search_cm_tabs .MuiTabs-flexContainer {
+    flex-wrap: wrap !important;
+  }
+  .search-carmodel-tabs .cm_tab {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /*  */
+    margin: 4px 4px;
+    min-height: 40px;
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}
